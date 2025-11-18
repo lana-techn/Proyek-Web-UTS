@@ -297,13 +297,6 @@ Menampilkan detail lengkap informasi mahasiswa dengan tombol aksi (Edit/Delete).
 | Info | #06b6d4 | Info elements |
 | Background | #f1f5f9 | Page background |
 
-### Komponen UI
-
-- **Buttons**: Modern dengan hover effects dan smooth transitions
-- **Cards**: Minimalis dengan subtle shadows dan accent borders
-- **Form**: Input dengan focus states dan error highlights
-- **Tables**: Responsive dengan hover effects pada rows
-- **Badges**: Color-coded untuk status jenis kelamin
 
 ## 📁 Struktur File Project
 
@@ -337,36 +330,6 @@ mahasiswa-app/
 ├── composer.json                          # PHP dependencies
 └── artisan                                # Laravel CLI
 ```
-
-## 🚀 Fitur Tambahan
-
-### Real-Time Search Implementation
-
-Menggunakan vanilla JavaScript dengan:
-- Event listener `input` untuk real-time filtering
-- Data attributes untuk menyimpan informasi searchable
-- Dynamic hiding/showing elements
-- Result counter yang update otomatis
-
-### Responsive Design
-
-- Mobile-first approach
-- Breakpoints untuk tablet dan desktop
-- Flexible grid layout
-- Touch-friendly buttons
-
-### Data Validation
-
-**Backend (PHP/Laravel)**:
-- Unique NIM validation
-- Required field validation
-- Date format validation
-- Enum validation untuk jenis kelamin
-
-**Frontend (JavaScript)**:
-- Real-time search matching
-- Dynamic filtering
-- No results messaging
 
 ## 🐛 Troubleshooting
 
